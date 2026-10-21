@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background: #eef1f5;
+  font-family: Arial, sans-serif;
+  color: #263238;
+}
+
+.cv-container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.cv-header {
+  background: #172b4d;
+  color: white;
+  padding: 35px 20px;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  margin-bottom: 15px;
+}
+
+.cv-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.cv-header h5 {
+  color: #76d7c4;
+}
+
+.cv-header p {
+  margin-bottom: 0;
+}
+
+.cv-section {
+  margin-bottom: 28px;
+}
+
+.cv-section h3 {
+  color: #172b4d;
+  font-size: 19px;
+  font-weight: bold;
+  border-bottom: 2px solid #76d7c4;
+  padding-bottom: 9px;
+  margin-bottom: 15px;
+}
+
+.cv-section p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.progress {
+  height: 7px;
+  background: #e8edf2;
+}
+
+.progress-bar {
+  background: #20a58b;
+}
+
+.timeline-item {
+  border-left: 3px solid #20a58b;
+  padding-left: 15px;
+  margin-bottom: 22px;
+}
+
+.timeline-item h5 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #172b4d;
+}
+
+.timeline-item h6 {
+  font-size: 14px;
+  color: #20a58b;
+}
+
+footer {
+  background: #f5f7fa;
+  color: #6c757d;
+}
+
+@media (max-width: 576px) {
+  .cv-header h1 {
+    font-size: 25px;
+  }
+
+  .cv-header {
+    padding: 25px 15px;
+  }
+}
